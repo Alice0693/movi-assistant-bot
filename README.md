@@ -2,7 +2,7 @@
   <h1>Movi</h1>
   <h3>Asistente Operativo de MoviTrack Py</h3>
   <br>
-  <img src="./assets/image_Movi.png" alt="Avatar de Movi" width="200">
+  <img src="./assets/Image_Movi.png" alt="Avatar de Movi" width="200">
   <br>
   <h4>Tu IA aliada en la gestión operativa y administrativa.</h4>
 </div>
