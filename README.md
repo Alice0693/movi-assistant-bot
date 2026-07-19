@@ -1,9 +1,8 @@
-# movi-assistant-bot
-
+movi-assistant-bot
 🚀 Movi: Asistente Operativo de MoviTrack Py
+
 📝 Descripción del Proyecto
 Movi es un agente de inteligencia artificial diseñado para optimizar la gestión operativa y administrativa de MoviTrack Py. Este asistente actúa como una base de conocimiento centralizada para los empleados, permitiendo una resolución ágil de consultas técnicas, gestión de clientes y aplicación de políticas contractuales.
-
 Movi está diseñado para estandarizar procesos críticos como la resolución de fallas técnicas, la verificación de estados de cuenta antes de asistencias de emergencia y la gestión de activos.
 
 🏗️ Arquitectura
@@ -30,10 +29,23 @@ Políticas de Recuperación: Aplicación de protocolos para la recuperación de 
 
 Protocolos de Asistencia: Verificación obligatoria de estado de cuenta (al día) para asistencia en casos de robo, bajo el marco de contratos mínimos de 12 meses.
 
+🖥️ Interfaz del Agente
+Movi cuenta con una interfaz de chat web intuitiva y funcional, optimizada para facilitar la consulta rápida de estados de cuenta y procedimientos técnicos. La interfaz permite la visualización clara de datos estructurados mediante tablas, garantizando una lectura ágil para el colaborador.
+
+⚙️ Mantenimiento y Evolución
+Para asegurar la relevancia y fiabilidad del agente, hemos establecido los siguientes procesos:
+
+Sincronización en tiempo real: Movi opera conectada directamente a la fuente maestra (Google Sheets), por lo que cualquier actualización en los documentos se refleja de forma inmediata.
+
+Ciclo de mejora continua: Se realiza un monitoreo periódico de las consultas no resueltas, utilizándolas como insumo para identificar vacíos de información y actualizar la base de conocimientos.
+
+Curaduría de datos: Un equipo designado es responsable de auditar la veracidad de los datos cargados en la planilla para evitar inconsistencias.
+
 ☁️ Despliegue en OCI
 (Aquí insertaremos la imagen o video del agente funcionando en la nube).
 
 🛠️ Tecnologías Utilizadas
+
 Lenguaje: Python
 
 Orquestador: n8n
