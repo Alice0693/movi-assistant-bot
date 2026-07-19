@@ -11,9 +11,6 @@
 <br>
 
 ## 📝 Descripción del Proyecto
-... (aquí sigue el resto de tu texto)
-
-## 📝 Descripción del Proyecto
 Movi es un agente de inteligencia artificial diseñado para optimizar la gestión operativa y administrativa de MoviTrack Py. Este asistente actúa como una base de conocimiento centralizada para los empleados, permitiendo una resolución ágil de consultas técnicas, gestión de clientes y aplicación de políticas contractuales.
 Movi está diseñado para estandarizar procesos críticos como la resolución de fallas técnicas, la verificación de estados de cuenta antes de asistencias de emergencia y la gestión de activos.
 
@@ -64,7 +61,7 @@ Para garantizar la trazabilidad de las operaciones, el sistema registra cada con
   "latency_ms": 320
 }
 
-🛠️ Tecnologías Utilizadas
+##🛠️ Tecnologías Utilizadas
 Lenguaje: Python
 
 Orquestador: n8n
@@ -75,7 +72,7 @@ Nube: Oracle Cloud Infrastructure (OCI)
 
 Control de Versiones: GitHub
 
-### Evidencia de Ejecución
+## Evidencia de Ejecución
 
 Evidencias de Funcionamiento:
 
@@ -85,7 +82,7 @@ Evidencias de Funcionamiento:
 
 3. Reporte de Morosidad (Pendientes de pago): Movi filtra y lista automáticamente a los clientes que tienen pagos pendientes, facilitando la gestión de cobranzas.
 
-* **Evidencia 1: Interfaz de consulta**
+## Evidencia 1: Interfaz de consulta**
   ![Consulta del empleado](./assets/image_1.png)
 
 * **Evidencia 2: Respuesta del asistente con datos técnicos**
