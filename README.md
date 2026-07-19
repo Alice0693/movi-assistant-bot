@@ -1,4 +1,17 @@
-# Movi: Asistente Operativo de MoviTrack Py
+<div align="center">
+  <h1>Movi</h1>
+  <h3>Asistente Operativo de MoviTrack Py</h3>
+  <br>
+  <img src="./assets/image_Movi.png" alt="Avatar de Movi" width="200">
+  <br>
+  <h4>Tu IA aliada en la gestión operativa y administrativa.</h4>
+</div>
+<br>
+---
+<br>
+
+## 📝 Descripción del Proyecto
+... (aquí sigue el resto de tu texto)
 
 ## 📝 Descripción del Proyecto
 Movi es un agente de inteligencia artificial diseñado para optimizar la gestión operativa y administrativa de MoviTrack Py. Este asistente actúa como una base de conocimiento centralizada para los empleados, permitiendo una resolución ágil de consultas técnicas, gestión de clientes y aplicación de políticas contractuales.
