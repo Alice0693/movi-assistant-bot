@@ -39,15 +39,15 @@ La arquitectura técnica para el despliegue del agente Movi en Oracle Cloud Infr
 *Nota de Implementación: El proceso de validación del método de pago para la cuenta de OCI se encuentra bajo revisión administrativa debido a restricciones de seguridad bancaria y ubicación georgráfica (El de mi país Paraguay, no aparece), lo cual impide la finalización del despliegue en consola a la fecha de entrega. La arquitectura está lista para su despliegue inmediato en cuanto se complete la validación.*
 
 ## 8. Registro de Ejecución
-Para garantizar la trazabilidad de las operaciones de MoviTrack Py, el sistema genera logs estructurados de cada interacción:
+
+Para garantizar la trazabilidad de las operaciones, el sistema registra cada consulta en formato JSON, permitiendo auditar la atención al cliente en tiempo real:
 
 ```json
 {
   "timestamp": "2026-07-19T14:15:00Z",
   "empleado_id": "EMP-085",
-  "query": "¿Cuál es el estado de conexión del móvil con placa ABC-123?",
-  "contexto_vehicular": "Reporte_GPS_Servidor_Central",
-  "respuesta": "El móvil ABC-123 tiene señal activa y última ubicación reportada en zona industrial.",
+  "query": "¿Cuál es el estado de pago del cliente?",
+  "resultado": "Verificación de base de datos completada",
   "latency_ms": 320
 }
 
@@ -64,13 +64,21 @@ Control de Versiones: GitHub
 
 ### Evidencia de Ejecución
 
+Evidencias de Funcionamiento:
+
+1. Interfaz del Asistente: El inicio del chat donde el colaborador interactúa con Movi.
+
+2. Consulta de Cliente al Día: Movi identifica al cliente, verifica su pago y devuelve sus datos de contacto de forma estructurada.
+
+3. Reporte de Morosidad (Pendientes de pago): Movi filtra y lista automáticamente a los clientes que tienen pagos pendientes, facilitando la gestión de cobranzas.
+
 * **Evidencia 1: Interfaz de consulta**
-  ![Consulta del empleado](./captura_consulta.png)
+  ![Consulta del empleado](./assets/image_1.png)
 
 * **Evidencia 2: Respuesta del asistente con datos técnicos**
-  ![Respuesta del bot](./captura_respuesta.png)
+  ![Respuesta del bot](./assets/image_2.png)
 
 * **Evidencia 3: Registro de logs (trazabilidad)**
-  ![Logs en consola](./captura_logs.png)
+  ![Logs en consola](./assets/image_3.png)
 
 
