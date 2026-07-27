@@ -14,22 +14,6 @@
 Movi es un agente de inteligencia artificial diseñado para optimizar la gestión operativa y administrativa de MoviTrack Py. Este asistente actúa como una base de conocimiento centralizada para los empleados, permitiendo una resolución ágil de consultas técnicas, gestión de clientes y aplicación de políticas contractuales.
 Movi está diseñado para estandarizar procesos críticos como la resolución de fallas técnicas, la verificación de estados de cuenta antes de asistencias de emergencia y la gestión de activos.
 
-<div align="center">
-  <h1>Movi</h1>
-  <h3>Asistente Operativo de MoviTrack Py</h3>
-  <br>
-  <img src="./assets/Image_Movi.png" alt="Avatar de Movi" width="200">
-  <br>
-  <h4>Tu IA aliada en la gestión operativa y administrativa.</h4>
-</div>
-<br>
----
-<br>
-
-## 📝 Descripción del Proyecto
-Movi es un agente de inteligencia artificial diseñado para optimizar la gestión operativa y administrativa de MoviTrack Py. Este asistente actúa como una base de conocimiento centralizada para los empleados, permitiendo una resolución ágil de consultas técnicas, gestión de clientes y aplicación de políticas contractuales.
-Movi está diseñado para estandarizar procesos críticos como la resolución de fallas técnicas, la verificación de estados de cuenta antes de asistencias de emergencia y la gestión de activos.
-
 ## 🏗️ Arquitectura
 El agente utiliza una arquitectura RAG (Retrieval-Augmented Generation):
 * **Ingesta:** Procesamiento de manuales técnicos (PDF), políticas de contratación (Word) y protocolos de asistencia (Markdown).
