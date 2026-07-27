@@ -14,6 +14,22 @@
 Movi es un agente de inteligencia artificial diseñado para optimizar la gestión operativa y administrativa de MoviTrack Py. Este asistente actúa como una base de conocimiento centralizada para los empleados, permitiendo una resolución ágil de consultas técnicas, gestión de clientes y aplicación de políticas contractuales.
 Movi está diseñado para estandarizar procesos críticos como la resolución de fallas técnicas, la verificación de estados de cuenta antes de asistencias de emergencia y la gestión de activos.
 
+<div align="center">
+  <h1>Movi</h1>
+  <h3>Asistente Operativo de MoviTrack Py</h3>
+  <br>
+  <img src="./assets/Image_Movi.png" alt="Avatar de Movi" width="200">
+  <br>
+  <h4>Tu IA aliada en la gestión operativa y administrativa.</h4>
+</div>
+<br>
+---
+<br>
+
+## 📝 Descripción del Proyecto
+Movi es un agente de inteligencia artificial diseñado para optimizar la gestión operativa y administrativa de MoviTrack Py. Este asistente actúa como una base de conocimiento centralizada para los empleados, permitiendo una resolución ágil de consultas técnicas, gestión de clientes y aplicación de políticas contractuales.
+Movi está diseñado para estandarizar procesos críticos como la resolución de fallas técnicas, la verificación de estados de cuenta antes de asistencias de emergencia y la gestión de activos.
+
 ## 🏗️ Arquitectura
 El agente utiliza una arquitectura RAG (Retrieval-Augmented Generation):
 * **Ingesta:** Procesamiento de manuales técnicos (PDF), políticas de contratación (Word) y protocolos de asistencia (Markdown).
@@ -38,15 +54,28 @@ Movi cuenta con una interfaz de chat web intuitiva, optimizada para facilitar la
 * **Curaduría de datos:** Auditoría constante de la veracidad de los datos cargados.
 
 ## ☁️ Despliegue en OCI
-**Estado del Despliegue:** En fase de aprovisionamiento de infraestructura.
+
+## 1. Introducción
+Este repositorio documenta el proceso de despliegue y configuración de nuestra infraestructura en la nube utilizando Oracle Cloud Infrastructure (OCI) para el servidor **Movi-Agent-Server**.
+
+## 2. Creación de la Instancia en OCI
+Se configuró una máquina virtual basada en la capa gratuita de Oracle Cloud, utilizando una unidad compatible con el sistema operativo y asegurando los parámetros de red y almacenamiento correspondientes.
+
+### Evidencia de Ejecución Exitosa:
+![Evidencia de ejecución exitosa](./assets/instancia-en-ejecucion.png)
+
+## 3. Configuración de Acceso y Red
+- **Dirección IP Pública:** `146.181.37.156`
+- **Método de Conexión:** Acceso mediante par de claves SSH (generadas durante el aprovisionamiento de la instancia).
+- **Puertos habilitados:** Configurados en la VCN para permitir el tráfico necesario para el servicio.
+
+## 4. Conclusión
+El servidor se encuentra operando correctamente en el entorno de OCI, listo para dar soporte al proyecto y recibir las configuraciones e implementaciones técnicas requeridas.
 
 La arquitectura técnica para el despliegue del agente Movi en Oracle Cloud Infrastructure (OCI) ha sido diseñada considerando:
-* **Compute:** Instancias VM.Standard.E4.Flex.
-* **Gestión de Secretos:** OCI Vault para la protección de llaves de API.
+* **Compute:** Instancias VM.Standard.E2.1.Micro.
 * **Almacenamiento:** OCI Object Storage con políticas IAM.
 * **Seguridad:** VCN y Network Security Groups.
-
-*Nota de Implementación: El proceso de validación del método de pago para la cuenta de OCI se encuentra bajo revisión administrativa debido a restricciones de seguridad bancaria y ubicación georgráfica (El de mi país Paraguay, no aparece), lo cual impide la finalización del despliegue en consola a la fecha de entrega. La arquitectura está lista para su despliegue inmediato en cuanto se complete la validación.*
 
 ## 8. Registro de Ejecución
 
